@@ -7,7 +7,7 @@ public class Window extends RectangularArea {
 	
 	private static int nextWindowNumber = 0;
 
-	private static final int InitialWidth = 200;
+	private static final int InitialWidth = 100;
 	private static final int InitialHeight = 100;
 	private static final int Origin = 0;
 	private static final Point getInitialPosition(){
