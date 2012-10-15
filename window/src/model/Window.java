@@ -45,6 +45,7 @@ public class Window extends RectangularArea {
 
 	public RectangularPartCollection getVisibleContext(){
 		//TODO (1) implement calculation of visible parts
+		
 		RectangularPartCollection result = new RectangularPartCollection();
 		if (this.isOpen()){
 			RectangularPart meAsPart = new RectangularPart(this.getLeftUpperCorner(),this.getWidth(),this.getHeight());
